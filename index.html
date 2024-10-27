@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JU Ljekarna GV-USK</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-turn-up"></i>
+    </button>
+    <!--hero-->
+    <div class="banner">
+      <div class="navbar">
+        <img src="logo.jpg" class="logo" />
+        <h4>JU LJEKARNA GV-USK</h4>
+        <nav>
+          <ul id="sidemenu">
+            <li><a href="#">Početna</a></li>
+            <li><a href="#portfolio">O nama</a></li>
+            <li><a href="#onama">Aktuelno</a></li>
+            <li><a href="#joglasi">Dokumenti</a></li>
+            <li><a href="#kontakt">Kontakti</a></li>
+            <i class="fas fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+
+      <div class="content">
+        <h1>
+          JAVNA USTANOVA LJEKARNA <br /><span> GORNJI VAKUF-USKOPLJE</span>
+        </h1>
+        <p>
+          Brinemo za Vaše zdravlje već <br />
+          20 godina!
+        </p>
+        <div>
+          <a href="#portfolio"
+            ><button type="button"><span></span>O kompaniji</button></a
+          >
+          <a href="#kontakt"
+            ><button type="button"><span></span>Kontakti</button></a
+          >
+        </div>
+      </div>
+    </div>
+    <!--onama-->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">O NAMA</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="tar.jpg" />
+            <div class="layer">
+              <h3>Historija</h3>
+              <p>Već 20 godina brinemo o Vašem zdravlju</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="f51f8dfb-2c60-4166-96da-2f8144d13d18.jpg" />
+            <div class="layer">
+              <h3>Strategija</h3>
+              <p>Misija, vizija i poslovna strategija.</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="background.jpg" />
+            <div class="layer">
+              <h3>AKAZ politike</h3>
+              <p>AKAZ certifikacija</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--akcije-->
+    <div class="naslov" id="onama">
+      <h1 class="sub-title">AKCIJE I NOVOSTI</h1>
+    </div>
+    <div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <ul class="carousel">
+        <li class="card">
+          <div class="img">
+            <img
+              src="DTPH-vizuali-za-web-18-10-2021-HR-v2.jpg"
+              alt="img"
+              draggable="false"
+            />
+            <h2>Dietpharm Akcija</h2>
+            <p>
+              Kupovinom 4 naša proizvoda 1 od ponuđenih proizvoda birate kao
+              gratis!
+            </p>
+            <button type="button">Saznajte više</button>
+          </div>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="pharma.jpg" alt="img" draggable="false" />
+            <h2>Dani Pharmameda</h2>
+            <p>5% na sve proizvode farmaceutske kompanije Pharmamed!</p>
+            <button type="button">Saznajte više</button>
+          </div>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="back3.jpg" alt="img" draggable="false" />
+            <h2>Multivitaminski pripravci</h2>
+            <p>
+              Saznajte više o multivitaminskim pripravcima i pravilnom
+              korištenju.
+            </p>
+            <button type="button">Saznajte više</button>
+          </div>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="Svjetski-Dan-Sunca.jpg" alt="img" draggable="false" />
+            <h2>Vitamin <br />D3</h2>
+            <p>Više o benefitima vitamina D i njegovu korištenju!</p>
+            <button type="button">Saznajte više</button>
+          </div>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="dphng.jpg" alt="img" draggable="false" />
+            <h2>Nagradna igra</h2>
+            <p>
+              Kupovinom 20KM preparata Mg Dietpharm sudjelujete u nagradnoj
+              igri!
+            </p>
+            <button type="button">Saznajte više</button>
+          </div>
+        </li>
+      </ul>
+      <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+    <!--newslatter-->
+    <section id="newslatter">
+      <div class="container1">
+        <div>
+          <h1 class="newslat">Novosti u Vašem inboxu!</h1>
+        </div>
+        <div>
+          <p class="pnews">
+            Na vrijeme saznajte sve informacije o akcijama, promocijama i
+            događajima!
+          </p>
+        </div>
+      </div>
+      <div class="cont2">
+        <form>
+          <input type="email" placeholder="Unesite email adresu..." />
+        </form>
+      </div>
+      <div>
+        <button type="submit" class="button_1">Prijava</button>
+      </div>
+    </section>
+    <!--javnioglasi-->
+    <div class="naslov" id="joglasi">
+      <h1 class="sub-title">JAVNI OGLASI</h1>
+    </div>
+    <div class="container2">
+      <div class="box-list">
+        <a href=""
+          ><div class="box">
+            <div class="oglas">
+              <i class="fa-solid fa-scroll"></i>
+              <h6>Javni oglas:prijem radnika u radni odnos</h6>
+            </div>
+            <h6 class="datum">datum objave: 15.05.2024.</h6>
+          </div></a
+        >
+        <a href=""
+          ><div class="box">
+            <div class="oglas">
+              <i class="fa-regular fa-calendar-plus"></i>
+              <h6>OGLAS: prodaja rashodavanje opreme</h6>
+            </div>
+            <h6 class="datum">datum objave: 15.05.2024.</h6>
+          </div></a
+        >
+
+        <a href=""
+          ><div class="box">
+            <div class="oglas">
+              <i class="fa-solid fa-scroll"></i>
+              <h6>Javni oglas: prijem radnika u radni odnos</h6>
+            </div>
+            <h6 class="datum">datum objave: 15.05.2024.</h6>
+          </div></a
+        >
+        <a href=""
+          ><div class="box">
+            <div class="oglas">
+              <i class="fa-solid fa-file"></i>
+              <h6>oglasna ploča: misija Ustanove</h6>
+            </div>
+            <h6 class="datum">datum objave: 10.05.2024.</h6>
+          </div></a
+        >
+        <a href=""
+          ><div class="box">
+            <div class="oglas">
+              <i class="fa-solid fa-calendar-days"></i>
+              <h6>Javna nabavka: specifična oprema</h6>
+            </div>
+            <h6 class="datum">datum objave: 15.01.2024.</h6>
+          </div></a
+        >
+        <a href=""
+          ><button type="button"><span></span>Pogledajte više oglasa</button></a
+        >
+      </div>
+    </div>
+
+    <!--pitajfarmaceuta-->
+    <div class="naslov">
+      <h1 class="sub-title">VAŠ ONLINE FARMACEUT</h1>
+    </div>
+    <div class="banner2">
+      <div class="contact-left">
+        <form
+          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd-6YlHE-6MPL2ggXCaXcavn5SBN7XE_vYWnDN5oH2ACoEUSA/formResponse"
+          method="post"
+          target="hidden_iframe"
+          onsubmit="submitted=true"
+          class="myform"
+        >
+          <input
+            type="text"
+            pattern="[A-Za-z]"
+            name="entry.677854996"
+            placeholder="Vaše ime i prezime..."
+            required
+          />
+          <input
+            type="email"
+            name="entry.752534941"
+            placeholder="Vaš email..."
+            required
+          />
+          <textarea
+            name="entry.416883154"
+            rows="6"
+            placeholder="Vaše pitanje?"
+          ></textarea>
+        </form>
+        <div class="poruka">
+          <button type="button"><span></span>Pošalji</button>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <!--kontakti-->
+    <div class="naslov">
+      <h1 class="sub-title">KONTAKTI</h1>
+    </div>
+    <div class="maincontainer" id="kontakt">
+      <div class="thecard">
+        <div class="thefront">
+          <svg class="svgicon" viewBox="0 0 576 512">
+            <path
+              d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"
+            ></path>
+          </svg>
+          <h3 class="cardh3">ADRESA</h3>
+        </div>
+        <div class="theback">
+          <h3 class="cardh3">Bistrička cesta bb</h3>
+        </div>
+      </div>
+      <div class="thecard">
+        <div class="thefront">
+          <svg class="svgicon" viewBox="0 0 448 512">
+            <path
+              d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48zm-16.39 307.37l-15 65A15 15 0 0 1 354 416C194 416 64 286.29 64 126a15.7 15.7 0 0 1 11.63-14.61l65-15A18.23 18.23 0 0 1 144 96a16.27 16.27 0 0 1 13.79 9.09l30 70A17.9 17.9 0 0 1 189 181a17 17 0 0 1-5.5 11.61l-37.89 31a231.91 231.91 0 0 0 110.78 110.78l31-37.89A17 17 0 0 1 299 291a17.85 17.85 0 0 1 5.91 1.21l70 30A16.25 16.25 0 0 1 384 336a17.41 17.41 0 0 1-.39 3.37z"
+            ></path>
+          </svg>
+          <h3 class="cardh3">TELEFON</h3>
+        </div>
+        <div class="theback">
+          <h3 class="cardh3">+387 <br />030 265-187</h3>
+        </div>
+      </div>
+      <div class="thecard">
+        <div class="thefront">
+          <svg class="svgicon" viewBox="0 0 576 512">
+            <path
+              d="M160 448c-25.6 0-51.2-22.4-64-32-64-44.8-83.2-60.8-96-70.4V480c0 17.67 14.33 32 32 32h256c17.67 0 32-14.33 32-32V345.6c-12.8 9.6-32 25.6-96 70.4-12.8 9.6-38.4 32-64 32zm128-192H32c-17.67 0-32 14.33-32 32v16c25.6 19.2 22.4 19.2 115.2 86.4 9.6 6.4 28.8 25.6 44.8 25.6s35.2-19.2 44.8-22.4c92.8-67.2 89.6-67.2 115.2-86.4V288c0-17.67-14.33-32-32-32zm256-96H224c-17.67 0-32 14.33-32 32v32h96c33.21 0 60.59 25.42 63.71 57.82l.29-.22V416h192c17.67 0 32-14.33 32-32V192c0-17.67-14.33-32-32-32zm-32 128h-64v-64h64v64zm-352-96c0-35.29 28.71-64 64-64h224V32c0-17.67-14.33-32-32-32H96C78.33 0 64 14.33 64 32v192h96v-32z"
+            ></path>
+          </svg>
+          <h3 class="cardh3">EMAIL</h3>
+        </div>
+        <div class="theback">
+          <h3 class="cardh3">
+            ljekarnagv<br />
+            @bih.net.ba
+          </h3>
+        </div>
+      </div>
+    </div>
+    <!--js-->
+    <script src="index.js"></script>
+    <!--js hammenu-->
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
